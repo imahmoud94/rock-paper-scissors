@@ -1,3 +1,6 @@
+
+
+
 //Get random choice between rock, paper, scissors
 function getComputerChoice(){
     let randNum = Math.floor(Math.random() * 3);
@@ -79,3 +82,7 @@ function game(){
     }
 
 }
+
+const playButton = document.querySelector(".play");
+
+playButton.addEventListener("click", game);
